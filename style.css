@@ -52,7 +52,6 @@ body {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-
   background-image: 
      linear-gradient(rgba(255, 243, 230, 0.6),
     rgba(255, 243, 230, 0.2)),
@@ -182,13 +181,28 @@ body {
     flex-direction: column;
     background-color: #fff3e6;
     position: absolute;
+    width: 200px;
     top: 70px;
-    right: 20px;
+    right: 0px;
     padding: 1rem;
     border-radius: 10px;
+    margin-right: 0px;
+    margin-top: 45px;
   }
   .menu-toggle {
     display: block;
+  }
+  .hero{
+    min-height: 100%;
+    margin-top: 0;
+    padding: 2rem 1rem;
+     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .hero img{
+    width:350px;
+   
   }
 }
 
